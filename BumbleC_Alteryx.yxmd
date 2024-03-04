@@ -1,0 +1,1265 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.1">
+  <Nodes>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ControlContainer.ControlContainer">
+        <Position x="54" y="53" width="1681" height="362" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Data cleansing workflow</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Data cleansing workflow</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="79" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Traffic_Crashes_-_Crashes.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH_RECORD_ID" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="RD_NO" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_DATE_EST_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="POSTED_SPEED_LIMIT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="TRAFFIC_CONTROL_DEVICE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="DEVICE_CONDITION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="WEATHER_CONDITION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LIGHTING_CONDITION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="FIRST_CRASH_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="TRAFFICWAY_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LANE_CNT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="ALIGNMENT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="ROADWAY_SURFACE_COND" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="ROAD_DEFECT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="REPORT_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INTERSECTION_RELATED_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="NOT_RIGHT_OF_WAY_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="HIT_AND_RUN_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="DAMAGE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="DATE_POLICE_NOTIFIED" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="PRIM_CONTRIBUTORY_CAUSE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="SEC_CONTRIBUTORY_CAUSE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STREET_NO" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STREET_DIRECTION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STREET_NAME" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="BEAT_OF_OCCURRENCE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="PHOTOS_TAKEN_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STATEMENTS_TAKEN_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="DOORING_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="WORK_ZONE_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="WORK_ZONE_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="WORKERS_PRESENT_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="NUM_UNITS" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="MOST_SEVERE_INJURY" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_TOTAL" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_FATAL" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_INCAPACITATING" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_NON_INCAPACITATING" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_REPORTED_NOT_EVIDENT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_NO_INDICATION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_UNKNOWN" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_HOUR" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_DAY_OF_WEEK" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_MONTH" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LATITUDE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LONGITUDE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LOCATION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="211" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CRASH_DATE_EST_I" selected="False" />
+                <SelectField field="LANE_CNT" selected="False" />
+                <SelectField field="INTERSECTION_RELATED_I" selected="False" />
+                <SelectField field="NOT_RIGHT_OF_WAY_I" selected="False" />
+                <SelectField field="HIT_AND_RUN_I" selected="False" />
+                <SelectField field="PHOTOS_TAKEN_I" selected="False" />
+                <SelectField field="STATEMENTS_TAKEN_I" selected="False" />
+                <SelectField field="DOORING_I" selected="False" />
+                <SelectField field="WORK_ZONE_I" selected="False" />
+                <SelectField field="WORK_ZONE_TYPE" selected="False" />
+                <SelectField field="WORKERS_PRESENT_I" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="344" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="POSTED_SPEED_LIMIT" selected="False" />
+                <SelectField field="TRAFFIC_CONTROL_DEVICE" selected="False" />
+                <SelectField field="DEVICE_CONDITION" selected="False" />
+                <SelectField field="WEATHER_CONDITION" selected="False" />
+                <SelectField field="LIGHTING_CONDITION" selected="False" />
+                <SelectField field="FIRST_CRASH_TYPE" selected="False" />
+                <SelectField field="TRAFFICWAY_TYPE" selected="False" />
+                <SelectField field="ALIGNMENT" selected="False" />
+                <SelectField field="ROADWAY_SURFACE_COND" selected="False" />
+                <SelectField field="ROAD_DEFECT" selected="False" />
+                <SelectField field="CRASH_TYPE" selected="False" />
+                <SelectField field="DAMAGE" selected="False" />
+                <SelectField field="DATE_POLICE_NOTIFIED" selected="False" />
+                <SelectField field="PRIM_CONTRIBUTORY_CAUSE" selected="False" />
+                <SelectField field="SEC_CONTRIBUTORY_CAUSE" selected="False" />
+                <SelectField field="STREET_NO" selected="False" />
+                <SelectField field="NUM_UNITS" selected="False" />
+                <SelectField field="CRASH_HOUR" selected="False" />
+                <SelectField field="CRASH_DAY_OF_WEEK" selected="False" />
+                <SelectField field="CRASH_MONTH" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="812" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF IsNull([REPORT_TYPE]) THEN &quot;UNKNOWN&quot; &#xA;ELSE [REPORT_TYPE] ENDIF" field="REPORT_TYPE" size="254" type="V_String" />
+                <FormulaField expression="IF IsNull([RD_NO]) THEN &quot;UNKNOWN&quot; &#xA;ELSE [RD_NO] ENDIF" field="RD_NO" size="254" type="V_String" />
+                <FormulaField expression="DateTimeFormat([CRASH_DATE_OUT], &quot;%A&quot;)" field="CRASH_DAY_OF_WEEK_TEXT" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>REPORT_TYPE = IF IsNull([REPORT_TYPE]) THEN "UNKNOWN" 
+ELSE [REPORT_TYPE] ENDIF
+...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="920" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="CRASH_RECORD_ID" selected="True" />
+                <Field field="RD_NO" selected="True" />
+                <Field field="CRASH_DATE" selected="True" />
+                <Field field="REPORT_TYPE" selected="True" />
+                <Field field="STREET_DIRECTION" selected="True" />
+                <Field field="STREET_NAME" selected="True" />
+                <Field field="BEAT_OF_OCCURRENCE" selected="True" />
+                <Field field="MOST_SEVERE_INJURY" selected="True" />
+                <Field field="INJURIES_TOTAL" selected="True" />
+                <Field field="INJURIES_FATAL" selected="True" />
+                <Field field="INJURIES_INCAPACITATING" selected="True" />
+                <Field field="INJURIES_NON_INCAPACITATING" selected="True" />
+                <Field field="INJURIES_REPORTED_NOT_EVIDENT" selected="True" />
+                <Field field="INJURIES_NO_INDICATION" selected="True" />
+                <Field field="INJURIES_UNKNOWN" selected="True" />
+                <Field field="LATITUDE" selected="True" />
+                <Field field="LONGITUDE" selected="True" />
+                <Field field="LOCATION" selected="True" />
+                <Field field="CRASH_DAY_OF_WEEK_TEXT" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH_RECORD_ID" size="128" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="String" />
+                <Field name="RD_NO" size="8" source="Formula: IF IsNull([RD_NO]) THEN &quot;UNKNOWN&quot; &#xA;ELSE [RD_NO] ENDIF" type="String" />
+                <Field name="CRASH_DATE" size="22" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="String" />
+                <Field name="REPORT_TYPE" size="26" source="Formula: IF IsNull([REPORT_TYPE]) THEN &quot;UNKNOWN&quot; &#xA;ELSE [REPORT_TYPE] ENDIF" type="V_String" />
+                <Field name="STREET_DIRECTION" size="1" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="String" />
+                <Field name="STREET_NAME" size="27" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="BEAT_OF_OCCURRENCE" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Int16" />
+                <Field name="MOST_SEVERE_INJURY" size="24" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="String" />
+                <Field name="INJURIES_TOTAL" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Byte" />
+                <Field name="INJURIES_FATAL" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Byte" />
+                <Field name="INJURIES_INCAPACITATING" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Byte" />
+                <Field name="INJURIES_NON_INCAPACITATING" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Byte" />
+                <Field name="INJURIES_REPORTED_NOT_EVIDENT" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Byte" />
+                <Field name="INJURIES_NO_INDICATION" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Byte" />
+                <Field name="INJURIES_UNKNOWN" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Byte" />
+                <Field name="LATITUDE" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Double" />
+                <Field name="LONGITUDE" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Double" />
+                <Field name="LOCATION" size="40" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="String" />
+                <Field name="CRASH_DATE_OUT" source="DateTime: To MM/dd/yyyy %X" type="DateTime" />
+                <Field name="CRASH_DAY_OF_WEEK_TEXT" size="9" source="Formula: DateTimeFormat([CRASH_DATE_OUT], &quot;%A&quot;)" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1040" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CRASH_DATE_OUT" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings>
+            <Position x="1280" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="listbox Select Incoming Fields">"INJURIES_TOTAL","INJURIES_FATAL","INJURIES_INCAPACITATING","INJURIES_NON_INCAPACITATING","INJURIES_REPORTED_NOT_EVIDENT","INJURIES_NO_INDICATION","INJURIES_UNKNOWN"</Value>
+              <Value name="radio Null Value">True</Value>
+              <Value name="radio User Specified Replace From Value">False</Value>
+              <Value name="updown User Replace Value">0.00000</Value>
+              <Value name="radio Mean">False</Value>
+              <Value name="radio Median">True</Value>
+              <Value name="radio Mode">False</Value>
+              <Value name="radio User Specified Replace With Value">False</Value>
+              <Value name="updown User Replace With Value">0.00000</Value>
+              <Value name="checkbox Impute Indicator">False</Value>
+              <Value name="checkbox Imputed Values Separate Field">False</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH_RECORD_ID" size="128" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+                <Field name="RD_NO" size="8" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+                <Field name="CRASH_DATE" size="22" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+                <Field name="REPORT_TYPE" size="26" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="V_String" />
+                <Field name="STREET_DIRECTION" size="1" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+                <Field name="STREET_NAME" size="27" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="V_String" />
+                <Field name="BEAT_OF_OCCURRENCE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Int16" />
+                <Field name="MOST_SEVERE_INJURY" size="24" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+                <Field name="INJURIES_TOTAL" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Byte" />
+                <Field name="INJURIES_FATAL" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Byte" />
+                <Field name="INJURIES_INCAPACITATING" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Byte" />
+                <Field name="INJURIES_NON_INCAPACITATING" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Byte" />
+                <Field name="INJURIES_REPORTED_NOT_EVIDENT" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Byte" />
+                <Field name="INJURIES_NO_INDICATION" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Byte" />
+                <Field name="INJURIES_UNKNOWN" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Byte" />
+                <Field name="LATITUDE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="LONGITUDE" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="Double" />
+                <Field name="LOCATION" size="40" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+                <Field name="CRASH_DAY_OF_WEEK_TEXT" size="9" source="Formula: IF &#xA;REGEX_Match([_CurrentFieldName_], '.*(?:_Indicator)$', 0) &amp;&amp; IsNull([_CurrentField_]) THEN &#xA;  0 &#xA;ELSE &#xA;  [_CurrentField_] &#xA;ENDIF" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro="Imputation_v3.yxmc" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="464" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>CRASH_DATE</InputFieldName>
+              <Language>English</Language>
+              <Format>MM/dd/yyyy %X</Format>
+              <OutputFieldName>CRASH_DATE_OUT</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert CRASH_DATE From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="799" y="308" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CRASH_RECORD_ID" selected="True" />
+                <SelectField field="POSTED_SPEED_LIMIT" selected="True" />
+                <SelectField field="TRAFFIC_CONTROL_DEVICE" selected="True" />
+                <SelectField field="DEVICE_CONDITION" selected="True" />
+                <SelectField field="WEATHER_CONDITION" selected="True" />
+                <SelectField field="LIGHTING_CONDITION" selected="True" />
+                <SelectField field="FIRST_CRASH_TYPE" selected="True" />
+                <SelectField field="TRAFFICWAY_TYPE" selected="True" />
+                <SelectField field="ALIGNMENT" selected="True" />
+                <SelectField field="ROADWAY_SURFACE_COND" selected="True" />
+                <SelectField field="ROAD_DEFECT" selected="True" />
+                <SelectField field="CRASH_TYPE" selected="True" />
+                <SelectField field="DAMAGE" selected="True" />
+                <SelectField field="DATE_POLICE_NOTIFIED" selected="True" />
+                <SelectField field="PRIM_CONTRIBUTORY_CAUSE" selected="True" />
+                <SelectField field="SEC_CONTRIBUTORY_CAUSE" selected="True" />
+                <SelectField field="STREET_NO" selected="True" />
+                <SelectField field="NUM_UNITS" selected="True" />
+                <SelectField field="CRASH_HOUR" selected="True" />
+                <SelectField field="CRASH_DAY_OF_WEEK" selected="True" />
+                <SelectField field="CRASH_MONTH" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1424" y="176" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="CRASH_RECORD_ID" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="CRASH_RECORD_ID" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_CRASH_RECORD_ID" selected="True" input="Left_" />
+                    <SelectField field="Left_RD_NO" selected="True" input="Left_" />
+                    <SelectField field="Left_CRASH_DATE" selected="True" input="Left_" />
+                    <SelectField field="Right_POSTED_SPEED_LIMIT" selected="True" input="Right_" />
+                    <SelectField field="Right_TRAFFIC_CONTROL_DEVICE" selected="True" input="Right_" />
+                    <SelectField field="Right_DEVICE_CONDITION" selected="True" input="Right_" />
+                    <SelectField field="Right_WEATHER_CONDITION" selected="True" input="Right_" />
+                    <SelectField field="Right_LIGHTING_CONDITION" selected="True" input="Right_" />
+                    <SelectField field="Right_FIRST_CRASH_TYPE" selected="True" input="Right_" />
+                    <SelectField field="Right_TRAFFICWAY_TYPE" selected="True" input="Right_" />
+                    <SelectField field="Right_ALIGNMENT" selected="True" input="Right_" />
+                    <SelectField field="Right_ROADWAY_SURFACE_COND" selected="True" input="Right_" />
+                    <SelectField field="Right_ROAD_DEFECT" selected="True" input="Right_" />
+                    <SelectField field="Left_REPORT_TYPE" selected="True" input="Left_" />
+                    <SelectField field="Right_CRASH_TYPE" selected="True" input="Right_" />
+                    <SelectField field="Right_DAMAGE" selected="True" input="Right_" />
+                    <SelectField field="Right_DATE_POLICE_NOTIFIED" selected="True" input="Right_" />
+                    <SelectField field="Right_PRIM_CONTRIBUTORY_CAUSE" selected="True" input="Right_" />
+                    <SelectField field="Right_SEC_CONTRIBUTORY_CAUSE" selected="True" input="Right_" />
+                    <SelectField field="Right_STREET_NO" selected="True" input="Right_" />
+                    <SelectField field="Left_STREET_DIRECTION" selected="True" input="Left_" />
+                    <SelectField field="Left_STREET_NAME" selected="True" input="Left_" />
+                    <SelectField field="Left_BEAT_OF_OCCURRENCE" selected="True" input="Left_" />
+                    <SelectField field="Right_NUM_UNITS" selected="True" input="Right_" />
+                    <SelectField field="Left_MOST_SEVERE_INJURY" selected="True" input="Left_" />
+                    <SelectField field="Left_INJURIES_TOTAL" selected="True" input="Left_" />
+                    <SelectField field="Left_INJURIES_FATAL" selected="True" input="Left_" />
+                    <SelectField field="Left_INJURIES_INCAPACITATING" selected="True" input="Left_" />
+                    <SelectField field="Left_INJURIES_NON_INCAPACITATING" selected="True" input="Left_" />
+                    <SelectField field="Left_INJURIES_REPORTED_NOT_EVIDENT" selected="True" input="Left_" />
+                    <SelectField field="Left_INJURIES_NO_INDICATION" selected="True" input="Left_" />
+                    <SelectField field="Left_INJURIES_UNKNOWN" selected="True" input="Left_" />
+                    <SelectField field="Left_CRASH_DAY_OF_WEEK" selected="True" input="Left_" />
+                    <SelectField field="Right_CRASH_HOUR" selected="True" input="Right_" />
+                    <SelectField field="Right_CRASH_MONTH" selected="True" input="Right_" />
+                    <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                    <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                    <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                    <SelectField field="Right_CRASH_RECORD_ID" selected="False" rename="Right_CRASH_RECORD_ID" input="Right_" />
+                    <SelectField field="Left_Field1" selected="True" input="Left_" />
+                    <SelectField field="Left_HIT_AND_RUN_I" selected="True" input="Left_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1544" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\DELL\AppData\Local\Temp\Engine_18140_2d05386a53ab864eb0d5f37803f47bf7_\Engine_18140_7d495b2c62ccd942bcb7062b46fc04d9~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="704" y="103" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([LATITUDE]) AND
+!IsNull([LONGITUDE]) AND
+!IsNull([LOCATION])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([LATITUDE]) AND
+!IsNull([LONGITUDE]) AND
+!IsNull([LOCATION])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="584" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsNull([STREET_DIRECTION]) AND
+!IsNull([STREET_NAME]) AND
+!IsNull([BEAT_OF_OCCURRENCE])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsNull([STREET_DIRECTION]) AND
+!IsNull([STREET_NAME]) AND
+!IsNull([BEAT_OF_OCCU...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="66">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1172" y="104" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[LATITUDE] != 0 AND
+[LONGITUDE] != 0</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[LATITUDE] != 0 AND
+[LONGITUDE] != 0</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="121">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ControlContainer.ControlContainer">
+            <Position x="1507" y="211" width="203" height="180" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Control Container 121</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="35">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1532" y="260" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="0">C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\BumbleC_SDB\BumbleC_SDB\output\Traffic_Crashes - Crashes Cleaned.csv</File>
+                  <Passwords />
+                  <Disable>False</Disable>
+                  <FormatSpecificOptions>
+                    <LineEndStyle>CRLF</LineEndStyle>
+                    <Delimeter>,</Delimeter>
+                    <ForceQuotes>False</ForceQuotes>
+                    <HeaderRow>True</HeaderRow>
+                    <CodePage>28591</CodePage>
+                    <WriteBOM>True</WriteBOM>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Traffic_Crashes - Crashes Cleaned.csv</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCtrlContainer" />
+        </Node>
+      </ChildNodes>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCtrlContainer" />
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ControlContainer.ControlContainer">
+        <Position x="55" y="464" width="1681" height="325" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Analysis - Defective street contribution to unit crashes in 2023</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Analysis - Defective street contribution to unit crashes in 2023</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="104">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="178" y="597" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="CRASH_DATE" selected="True" />
+                <SelectField field="ROAD_DEFECT" selected="True" />
+                <SelectField field="CRASH_TYPE" selected="True" />
+                <SelectField field="PRIM_CONTRIBUTORY_CAUSE" selected="True" />
+                <SelectField field="STREET_NAME" selected="True" />
+                <SelectField field="NUM_UNITS" selected="True" />
+                <SelectField field="INJURIES_FATAL" selected="False" type="Int32" size="4" />
+                <SelectField field="INJURIES_INCAPACITATING" selected="False" type="Int32" size="4" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="105">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="670" y="598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>!=</Operator>
+                <Field>ROAD_DEFECT</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-10-10 18:50:51</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>NO DEFECTS</Operand>
+                  <StartDate>2023-10-10 18:50:51</StartDate>
+                  <EndDate>2023-10-10 18:50:51</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[ROAD_DEFECT] != "NO DEFECTS"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="106">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="790" y="598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>!=</Operator>
+                <Field>ROAD_DEFECT</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-10-10 18:51:47</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>UNKNOWN</Operand>
+                  <StartDate>2023-10-10 18:51:47</StartDate>
+                  <EndDate>2023-10-10 18:51:47</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[ROAD_DEFECT] != "UNKNOWN"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="107">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="982" y="598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="STREET_NAME" action="GroupBy" rename="STREET_NAME" />
+                <SummarizeField field="ROAD_DEFECT" action="GroupBy" rename="ROAD_DEFECT" />
+                <SummarizeField field="PRIM_CONTRIBUTORY_CAUSE" action="GroupBy" rename="PRIM_CONTRIBUTORY_CAUSE" />
+                <SummarizeField field="NUM_UNITS" action="Sum" rename="Sum_NUM_UNITS" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="108">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+            <Position x="478" y="597" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Fields>
+                <Field field="ROAD_DEFECT" selected="True" />
+                <Field field="STREET_NAME" selected="True" />
+                <Field field="NUM_UNITS" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </Fields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH_DATE" size="22" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="String" />
+                <Field name="ROAD_DEFECT" size="17" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_TYPE" size="32" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="PRIM_CONTRIBUTORY_CAUSE" size="80" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STREET_NAME" size="27" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="NUM_UNITS" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="Byte" />
+                <Field name="CRASH_DATE_OUT" source="DateTime: To MM/dd/yyyy %X" type="DateTime" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+        </Node>
+        <Node ToolID="109">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="574" y="598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="110">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="286" y="597" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>CRASH_DATE</InputFieldName>
+              <Language>German</Language>
+              <Format>MM/dd/yyyy %X</Format>
+              <OutputFieldName>CRASH_DATE_OUT</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Convert CRASH_DATE From:
+Custom</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="111">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="382" y="598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>DateTimeYear([CRASH_DATE_OUT]) = 2023</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DateTimeYear([CRASH_DATE_OUT]) = 2023</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="112">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="958" y="514" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="STREET_NAME" action="GroupBy" rename="STREET_NAME" />
+                <SummarizeField field="NUM_UNITS" action="Sum" rename="Sum_NUM_UNITS" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="113">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1114" y="562" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="STREET_NAME" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="STREET_NAME" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Sum_NUM_UNITS" selected="True" rename="TOTAL_NUM_UNITS" input="Left_" />
+                    <SelectField field="Right_STREET_NAME" selected="False" input="Right_" />
+                    <SelectField field="Right_Sum_NUM_UNITS" selected="True" rename="ROAD_DEFECT_NUM_UNITS" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="114">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1210" y="562" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Round([ROAD_DEFECT_NUM_UNITS] / [TOTAL_NUM_UNITS] * 100, .01)" field="Percentage" size="4" type="Float" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Percentage = Round([ROAD_DEFECT_NUM_UNITS] / [TOTAL_NUM_UNITS] * 100, .01)
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="115">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="1438" y="562" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="1033">
+                <Field field="Percentage" order="Descending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Percentage - Descending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="116">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1330" y="562" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Operator>&gt;=</Operator>
+                <Field>Percentage</Field>
+                <Operands>
+                  <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+                  <DateType>fixed</DateType>
+                  <PeriodDate>2023-10-11 16:28:31</PeriodDate>
+                  <PeriodType>
+                  </PeriodType>
+                  <PeriodCount>0</PeriodCount>
+                  <Operand>5</Operand>
+                  <StartDate>2023-10-11 16:28:31</StartDate>
+                  <EndDate>2023-10-11 16:28:31</EndDate>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Percentage] &gt;= 5</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="118">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="80" y="598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>True</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>True</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Traffic_Crashes_-_Crashes.csv</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="CRASH_RECORD_ID" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="RD_NO" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_DATE_EST_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_DATE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="POSTED_SPEED_LIMIT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="TRAFFIC_CONTROL_DEVICE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="DEVICE_CONDITION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="WEATHER_CONDITION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LIGHTING_CONDITION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="FIRST_CRASH_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="TRAFFICWAY_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LANE_CNT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="ALIGNMENT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="ROADWAY_SURFACE_COND" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="ROAD_DEFECT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="REPORT_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INTERSECTION_RELATED_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="NOT_RIGHT_OF_WAY_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="HIT_AND_RUN_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="DAMAGE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="DATE_POLICE_NOTIFIED" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="PRIM_CONTRIBUTORY_CAUSE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="SEC_CONTRIBUTORY_CAUSE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STREET_NO" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STREET_DIRECTION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STREET_NAME" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="BEAT_OF_OCCURRENCE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="PHOTOS_TAKEN_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="STATEMENTS_TAKEN_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="DOORING_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="WORK_ZONE_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="WORK_ZONE_TYPE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="WORKERS_PRESENT_I" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="NUM_UNITS" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="MOST_SEVERE_INJURY" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_TOTAL" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_FATAL" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_INCAPACITATING" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_NON_INCAPACITATING" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_REPORTED_NOT_EVIDENT" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_NO_INDICATION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="INJURIES_UNKNOWN" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_HOUR" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_DAY_OF_WEEK" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="CRASH_MONTH" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LATITUDE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LONGITUDE" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+                <Field name="LOCATION" size="254" source="File: C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\Traffic_Crashes_-_Crashes.csv" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="119">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="886" y="598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[PRIM_CONTRIBUTORY_CAUSE] IN ("UNABLEE TO DETERMINE", "NOT APPLICABLE", "ROAD CONSTRUCTION/MAINTENANCE", "VISION OBSCURED (SIGNS, TREE LIMBS, BUILDINGS, ETC.)", "WEATHER", "ROAD ENGINEERING/SURFACE/MARKING DEFECTS")</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[PRIM_CONTRIBUTORY_CAUSE] IN ("UNABLEE TO DETERMINE", "NOT APPLICABLE", "ROAD CO...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="122">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ControlContainer.ControlContainer">
+            <Position x="1509" y="513" width="203" height="195" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Control Container 122</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="True" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="117">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+                <Position x="1534" y="562" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <File MaxRecords="" FileFormat="0">C:\Users\DELL\Desktop\4th year 1st semester\special topic in DB\project\BumbleC_SDB\BumbleC_SDB\output\Analysis - Street defect as a cause over 5_ of units in 2023.csv</File>
+                  <Passwords />
+                  <Disable>False</Disable>
+                  <FormatSpecificOptions>
+                    <LineEndStyle>CRLF</LineEndStyle>
+                    <Delimeter>,</Delimeter>
+                    <ForceQuotes>False</ForceQuotes>
+                    <HeaderRow>True</HeaderRow>
+                    <CodePage>28591</CodePage>
+                    <WriteBOM>True</WriteBOM>
+                  </FormatSpecificOptions>
+                  <MultiFile value="False" />
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Analysis - Street defect as a cause over 5_ of units in 2023.csv</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+            </Node>
+          </ChildNodes>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCtrlContainer" />
+        </Node>
+      </ChildNodes>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCtrlContainer" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="19" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="True" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="104" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="True" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="True" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="113" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="113" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="108" Connection="Output" />
+      <Destination ToolID="109" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="105" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="110" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="True" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="113" Connection="Join" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="115" Connection="Output" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="True" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="104" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="True" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>BumbleC_Alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a6a82020-8d8b-4c03-8090-180d5bb37062" />
+      <Telemetry>
+        <PreviousWorkflowId value="889cca0b-7771-4c8f-9e23-3f67e3816e08" />
+        <OriginWorkflowId value="889cca0b-7771-4c8f-9e23-3f67e3816e08" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
